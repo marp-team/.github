@@ -27,11 +27,11 @@ And the most of Marp apps (CLI, Web, Desktop...) and integrations (VS Code, Reac
 [marpit]: https://github.com/marp-team/marpit
 [marp core]: https://github.com/marp-team/marp-core
 
-## [Question](./SUPPORT.md)
+## [Question]
 
-Please see [`SUPPORT.md`](./SUPPORT.md#question) if you would like to ask any question.
+Please see [`SUPPORT.md`][question] if you would like to ask any question.
 
-**TL;DR**: If you want to ask something question, GitHub issue tracker is a wrong place in most cases.
+> **TL;DR**: If you want to ask something question, GitHub issue tracker is a wrong place in most cases.
 
 ## Report issue
 
@@ -113,7 +113,8 @@ For the security reason, we are not planned to automate publishing. [We require 
 
 > :information_source: Maintainer should configure to check code styling and tests again when running important commands through `preversion` (bumping version) and `prepack` (publish to npm).
 
-[code-of-conduct]: https://github.com/marp-team/marp/blob/master/.github/CODE_OF_CONDUCT.md
+[code-of-conduct]: ./CODE_OF_CONDUCT.md
+[question]: ./SUPPORT.md#question
 [marp-team]: https://github.com/marp-team/
 [yarn]: https://yarnpkg.com/
 [prettier]: https://prettier.io/
