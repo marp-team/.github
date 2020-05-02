@@ -55,7 +55,7 @@ However, we have to take a moment to judge whether fitting to the project aim an
 
 > :warning: Did you find a security vulnerability? _Report directly to security@marp.app instead of opening a new issue._
 
-Currently, we don't have a default issue template. But to assist in finding the bug by committer rapidly, it is good to describe these:
+To assist in finding the bug by contributor rapidly, it is good to describe these:
 
 - Expected behavior and actual behavior
 - Necessary steps and resources to reproduce bug

@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 🔍 Search existed issues from marp-team organization
+    url: https://github.com/search?q=org%3Amarp-team+is%3Aissue+
+    about: Search for similar issues before reporting your issue. It may be already reported and resolved.
+  - name: 🙅‍♀️ Please don't ask for support in GitHub Issue
+    url: https://github.com/marp-team/.github/blob/master/SUPPORT.md#question
+    about: GitHub Issue is for tracking problems occurred in our project and not for questions. Please follow SUPPORT.md.
