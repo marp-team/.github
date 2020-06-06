@@ -65,6 +65,14 @@ To assist in finding the bug by contributor rapidly, it is good to describe thes
 
 You can submit pull request if you have fixed or added useful something to our projects.
 
+### Before adding new feature
+
+*Marp team is not proactive for enhanceing our syntax*, because the custom Markdown flavor may make user's confusions and protests whose are familiar with exist Markdown/CommonMark syntax.
+
+We are always suggesting **"Use or create the third-party [plugin](https://marpit.marp.app/usage?id=extend-marpit-by-plugins) if you want"** rather than adding new syntax. For implementing new syntax and new feature to offical tools, we require able to confirm a worth through a created third-party plugin and many real-world presentations using it. We will consider integrating the plugin as built-in feature if the most of Marp community shows that using the plugin is valuable.
+
+### Requirements in pull request
+
 - **Indicate related issue(s) in description of PR.** In many cases, the created PR should already have related problems. GitHub can [close issue automatically by keyword](https://help.github.com/articles/closing-issues-using-keywords/).
 
 - **Keep code styling.** We are using [yarn] package manager, [Prettier] formatter, and linters for each language. CI build would fail when using the wrong format/style. It could fix by `yarn format --write` and `yarn lint:[lang] --fix` in most projects.
