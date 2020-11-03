@@ -31,7 +31,9 @@ And the most of Marp apps (CLI, Web, Desktop...) and integrations (VS Code, Reac
 
 Please see [`SUPPORT.md`][question] if you would like to ask any question.
 
-> **TL;DR**: If you want to ask something question, GitHub issue tracker is a wrong place in most cases.
+We have [GitHub Discussions] to engage with other Marp community members.
+
+[github discussions]: https://github.com/marp-team/marp/discussions
 
 ## Report issue
 
@@ -49,7 +51,9 @@ If you could not find out a similar issue, you can create a new issue. Please no
 
 Feature request is welcome because it could give feedback to us.
 
-However, we have to take a moment to judge whether fitting to the project aim and scope. We require clear benefit and strong incentive to work for the request because each our projects should keep simple and smart. A created issue would serve as a table for discussion.
+However, we have to take a moment to judge whether fitting to the project aim and scope. We require clear benefit and strong incentive to work for the request because each our projects should keep simple and smart.
+
+We recommend to post about your request into [GitHub Discussions][github discussions] at first. Talk about your new idea with Marp community.
 
 ### Bug report
 

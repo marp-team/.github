@@ -6,3 +6,6 @@ contact_links:
   - name: 🙅‍♀️ Please don't ask for support in GitHub Issue
     url: https://github.com/marp-team/.github/blob/master/SUPPORT.md#question
     about: GitHub Issue is for tracking problems occurred in our project and not for questions. Please follow SUPPORT.md.
+  - name: 💬 Discussions
+    url: https://github.com/marp-team/marp/discussions
+    about: We recommend using GitHub Discussions for to ask something.
