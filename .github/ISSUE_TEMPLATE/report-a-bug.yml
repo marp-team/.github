@@ -46,6 +46,18 @@ body:
       required: true
 
   - type: textarea
+    id: how-to-reproduce
+    attributes:
+      label: How to reproduce
+      description: Necessary steps and resources to reproduce a bug
+      value: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
     id: expected-behavior
     attributes:
       label: Expected behavior
@@ -60,18 +72,6 @@ body:
       label: Actual behavior
       description: The summary of actual behavior you met
       placeholder: The summary of actual behavior you met
-    validations:
-      required: true
-
-  - type: textarea
-    id: how-to-reproduce
-    attributes:
-      label: How to reproduce
-      description: Necessary steps and resources to reproduce a bug
-      value: |
-        1. ...
-        2. ...
-        3. ...
     validations:
       required: true
 
