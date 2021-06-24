@@ -59,7 +59,7 @@ We recommend to post about your request into [GitHub Discussions][github discuss
 
 > :warning: Did you find a security vulnerability? _Report directly to security@marp.app instead of opening a new issue._
 
-To assist in finding the bug by contributor rapidly, it is good to describe these:
+We highly recommend to use "🐛 Report a bug" issue form in the corresponding repository to the bug. To assist in finding the bug by contributor rapidly, it is good to describe these:
 
 - Expected behavior and actual behavior
 - Necessary steps and resources to reproduce bug
@@ -71,7 +71,7 @@ You can submit pull request if you have fixed or added useful something to our p
 
 ### Before adding new feature
 
-*Marp team is not proactive for enhanceing our syntax*, because the custom Markdown flavor may make user's confusions and protests whose are familiar with exist Markdown/CommonMark syntax.
+_Marp team is not proactive for enhanceing our syntax_, because the custom Markdown flavor may make user's confusions and protests whose are familiar with exist Markdown/CommonMark syntax.
 
 We are always suggesting **"Use or create the third-party [plugin](https://marpit.marp.app/usage?id=extend-marpit-by-plugins) if you want"** rather than adding new syntax. For implementing new syntax and new feature to offical tools, we require able to confirm a worth through a created third-party plugin and many real-world presentations using it. We will consider integrating the plugin as built-in feature if the most of Marp community shows that using the plugin is valuable.
 
