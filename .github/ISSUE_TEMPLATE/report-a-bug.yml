@@ -38,7 +38,7 @@ body:
     attributes:
       label: Environment
       description: The detail of your environment
-      text: |
+      value: |
         - OS version: [e.g. Windows 10 / macOS Big Sur 11.4 / Ubuntu 20.04.2]
         - Node.js version (Marpit / Marp Core/ Marp CLI): [e.g. Node.js 14.17.1]
         - VS Code version (Marp for VS Code): [e.g. VS Code 1.57.1]
@@ -68,7 +68,7 @@ body:
     attributes:
       label: How to reproduce
       description: Necessary steps and resources to reproduce a bug
-      text: |
+      value: |
         1. ...
         2. ...
         3. ...
