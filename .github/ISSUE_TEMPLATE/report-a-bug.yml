@@ -1,0 +1,75 @@
+name: 🐛 Report a bug
+description: Recommend to use this form for reporting a bug.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Before reporting a bug
+
+        - This form is for reporting a bug certainly confirmed. If you cannot confident that it is a bug, please ask in [Marp dicussion forum](https://github.com/marp-team/marp/discussions) first. _See also: [Why you must not ask questions on Github issues](https://medium.com/@methane/why-you-must-not-ask-questions-on-github-issues-51d741d83fde)_
+        * Is this repository suited for reporting your issue? We ask for your cooperation to report the issue to corresponding repository based on the cause of bug. _See also: [The architecture of Marp ecosystem](https://github.com/marp-team/.github/blob/master/CONTRIBUTING.md#architecture)_
+
+        > Marp team may [transfer the reported issue](https://help.github.com/en/articles/transferring-an-issue-to-another-repository) into the proper repository. If the suited repository is not clear, you also can report to [Marp dicussion forum](https://github.com/marp-team/marp/discussions).
+
+  - type: input
+    id: version
+    attributes:
+      label: Version of Marp Tool
+      description: Which Marp version is your bug occurred?
+      placeholder: e.g. Marp CLI v1.1.1
+    validations:
+      required: true
+
+  - type: dropdown
+    id: operating-system
+    attributes:
+      label: Operating System
+      options:
+        - Windows
+        - macOS
+        - Linux
+        - Other (fill out in the environment field)
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Fill out the detail of your environment
+      placeholder: |
+        - OS version: [e.g. Windows 10 / macOS Big Sur 11.4 / Ubuntu 20.04.2]
+        - Node.js version (Marpit / Marp Core/ Marp CLI): [e.g. Node.js 14.17.1]
+        - VS Code version (Marp for VS Code): [e.g. VS Code 1.57.1]
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected behavior
+      description: The summary of behavior you've expected
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: Actual behavior
+      description: The summary of actual behavior you met
+    validations:
+      required: true
+
+  - type: textarea
+    id: how-to-reproduce
+    attributes:
+      label: How to reproduce
+      description: Necessary steps and resources to reproduce a bug
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: Additional information
