@@ -5,7 +5,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ### Before reporting a bug
+        ## Before reporting a bug
 
         - This form is for reporting a bug certainly confirmed. If you cannot confident that it is a bug, please ask in [Marp dicussion forum](https://github.com/marp-team/marp/discussions) first. _See also: [Why you must not ask questions on Github issues](https://medium.com/@methane/why-you-must-not-ask-questions-on-github-issues-51d741d83fde)_
         * Is this repository suited for reporting your issue? We ask for your cooperation to report the issue to corresponding repository based on the cause of bug. _See also: [The architecture of Marp ecosystem](https://github.com/marp-team/.github/blob/master/CONTRIBUTING.md#architecture)_
@@ -37,8 +37,8 @@ body:
     id: environment
     attributes:
       label: Environment
-      description: Fill out the detail of your environment
-      placeholder: |
+      description: The detail of your environment
+      text: |
         - OS version: [e.g. Windows 10 / macOS Big Sur 11.4 / Ubuntu 20.04.2]
         - Node.js version (Marpit / Marp Core/ Marp CLI): [e.g. Node.js 14.17.1]
         - VS Code version (Marp for VS Code): [e.g. VS Code 1.57.1]
@@ -50,6 +50,7 @@ body:
     attributes:
       label: Expected behavior
       description: The summary of behavior you've expected
+      placeholder: The summary of behavior you've expected
     validations:
       required: true
 
@@ -58,6 +59,7 @@ body:
     attributes:
       label: Actual behavior
       description: The summary of actual behavior you met
+      placeholder: The summary of actual behavior you met
     validations:
       required: true
 
@@ -66,6 +68,10 @@ body:
     attributes:
       label: How to reproduce
       description: Necessary steps and resources to reproduce a bug
+      text: |
+        1. ...
+        2. ...
+        3. ...
     validations:
       required: true
 
@@ -73,3 +79,4 @@ body:
     id: additional-information
     attributes:
       label: Additional information
+      placeholder: Fill out any additional things about this bug (optional)
