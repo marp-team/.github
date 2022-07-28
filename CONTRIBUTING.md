@@ -75,6 +75,21 @@ _Marp team is not proactive for enhanceing our syntax_, because the custom Markd
 
 We are always suggesting **"Use or create the third-party [plugin](https://marpit.marp.app/usage?id=extend-marpit-by-plugins) if you want"** rather than adding new syntax. For implementing new syntax and new feature to offical tools, we require able to confirm a worth through a created third-party plugin and many real-world presentations using it. We will consider integrating the plugin as built-in feature if the most of Marp community shows that using the plugin is valuable.
 
+### [Good first issues](https://github.com/search?q=org%3Amarp-team+is%3Aopen+label%3A%22good+first+issue%22)
+
+Some issues have been labeled [**`good first issue`**](https://github.com/search?q=org%3Amarp-team+is%3Aopen+label%3A%22good+first+issue%22) to indicate the issue suits new contributors. We're always welcome to send a pull request about them.
+
+- **Low barrier to contribute**: It is expected to be resolved the issue with simple modification, without advanced knowledge about the architecture of Marp ecosystem.
+
+- **The clear context/solution**: In many cases, the clear context and solution (or one of them) have already been mentioned in the labeled issue.
+
+- **Nice to have**: Generally the labeled issues are not in pressing needs, but would make definitely better for users.
+
+Working on `good first issue` would become the good first step for contributing to Marp projects via coding. It's also helpful for learning the basic architecture of the contributing project, and you can gain a foothold for more advanced contributions.
+
+> **Note**
+> This label does not mean to restrict a contributor by the number of contribution times to the project. Everyone can contribute if you thought it is worth to resolve.
+
 ### Requirements in pull request
 
 - **Indicate related issue(s) in description of PR.** In many cases, the created PR should already have related problems. GitHub can [close issue automatically by keyword](https://help.github.com/articles/closing-issues-using-keywords/).
