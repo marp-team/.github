@@ -77,15 +77,15 @@ We are always suggesting **"Use or create the third-party [plugin](https://marpi
 
 ### [Good first issues](https://github.com/search?q=org%3Amarp-team+is%3Aopen+label%3A%22good+first+issue%22)
 
-Some of issues have been labeled [**`good first issue`**](https://github.com/search?q=org%3Amarp-team+is%3Aopen+label%3A%22good+first+issue%22) to indicate the issue to suit to new contributors. We're always welcome to send the pull request about them.
+Some issues have been labeled [**`good first issue`**](https://github.com/search?q=org%3Amarp-team+is%3Aopen+label%3A%22good+first+issue%22) to indicate the issue suits new contributors. We're always welcome to send a pull request about them.
 
-- **Low barrier to contribute**: It is expected to be resolved the issue with simple modification, without advanced knowledgements about the architecture of Marp ecosystem.
+- **Low barrier to contribute**: It is expected to be resolved the issue with simple modification, without advanced knowledge about the architecture of Marp ecosystem.
 
-- **The clear context/solution**: In many cases, the clear context and solution (or one of them) has been already mentioned in the labled issue.
+- **The clear context/solution**: In many cases, the clear context and solution (or one of them) have already been mentioned in the labeled issue.
 
-- **Nice to have**: Generally the labled issues are not in pressing needs, but would make definetely better for users.
+- **Nice to have**: Generally the labeled issues are not in pressing needs, but would make definitely better for users.
 
-Working on `good first issue` would becomes the good first step for contributing to Marp projects via coding. It's also helpful for learning the basic architecture about a contributing project.
+Working on `good first issue` would become the good first step for contributing to Marp projects via coding. It's also helpful for learning the basic architecture of the contributing project, and you can gain a foothold for more advanced contributions.
 
 > **Note**
 > This label does not mean to restrict a contributor by the number of contribution times to the project. Everyone can contribute if you thought it is worth to resolve.
