@@ -12,6 +12,16 @@ Depending on the project you want to contribute, it might have additional guidel
 
 We follow [Contributor Covenant Code of Conduct][code-of-conduct] in the all of repositories managed by [Marp team][marp-team].
 
+## Our position
+
+For simplicity and long-maintainabillity of the ecosystem, Marp team is focusing just to the experience of slide authoring.
+
+Team members should avoid to bring [scope creep] and bloated project scope in the ecosystem. If not, the ecosystem would end up burning out, just like a [former Marp app](https://github.com/yhatt/marp).
+
+For instance, about enhancement for doing presentation; we mainly leave it to our developer community because of not primary scope for us.
+
+[scope creep]: https://en.wikipedia.org/wiki/Scope_creep
+
 ## Architecture
 
 [<img align="left" src="architecture.svg" width="25%" />](architecture.svg)
