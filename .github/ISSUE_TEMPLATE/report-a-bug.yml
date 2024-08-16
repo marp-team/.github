@@ -1,6 +1,6 @@
 name: 🐛 Report a bug
 description: Recommend to use this form for reporting a bug.
-labels: [bug]
+labels: [bug-triage]
 body:
   - type: markdown
     attributes:
@@ -39,9 +39,9 @@ body:
       label: Environment
       description: The detail of your environment
       value: |
-        - OS version: [e.g. Windows 10 / macOS Big Sur 11.4 / Ubuntu 20.04.2]
-        - Node.js version (Marpit / Marp Core/ Marp CLI): [e.g. Node.js 14.17.1]
-        - VS Code version (Marp for VS Code): [e.g. VS Code 1.57.1]
+        - OS version: [e.g. Windows 11 / macOS Sonoma 14.5 / Ubuntu 24.04]
+        - Node.js version (Marpit / Marp Core/ Marp CLI): [e.g. Node.js 20.16.0]
+        - VS Code version (Marp for VS Code): [e.g. VS Code 1.92.0]
     validations:
       required: true
 
