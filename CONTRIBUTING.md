@@ -104,9 +104,9 @@ Working on `good first issue` would become the good first step for contributing 
 
 - **Indicate related issue(s) in description of PR.** In many cases, the created PR should already have related problems. GitHub can [close issue automatically by keyword](https://help.github.com/articles/closing-issues-using-keywords/).
 
-- **Keep code styling.** We are using [yarn] package manager, [Prettier] formatter, and linters for each language. CI build would fail when using the wrong format/style. It could fix by `yarn format --write` and `yarn lint:[lang] --fix` in most projects.
+- **Keep code styling.** We are using npm package manager, [Prettier] formatter, and linters for each language. CI build would fail when using the wrong format/style. It could fix by `npm run format -- --write` and `npm run lint:[lang] -- --fix` in most projects.
 
-- **Maintain tests.** We need to fill code coverage by writing meaningful tests. In many projects, we are setting a threshold of global line coverage to 95%. You could measure coverage in local by running `yarn test:coverage`.
+- **Maintain tests.** We need to fill code coverage by writing meaningful tests. In many projects, we are setting a threshold of global line coverage to 95%. You could measure coverage in local by running `npm run test:coverage`.
 
 ### For maintainer
 
@@ -117,8 +117,6 @@ These are tasks for maintainer, and usually committer doesn't have to worry.
 ## Release
 
 The core maintainer can release package or product of marp-team projects.
-
-> :warning: You have to use `npm` in a release process, and NEVER use `yarn`.
 
 ### Versioning
 
@@ -153,7 +151,6 @@ For the security reason, we are not planned to automate publishing. [We require 
 [code-of-conduct]: ./CODE_OF_CONDUCT.md
 [question]: ./SUPPORT.md#question
 [marp-team]: https://github.com/marp-team/
-[yarn]: https://yarnpkg.com/
 [prettier]: https://prettier.io/
 [keep a changelog]: https://keepachangelog.com/en/1.0.0/
 [semantic versioning]: https://semver.org/
